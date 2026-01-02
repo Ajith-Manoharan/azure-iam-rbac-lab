@@ -22,7 +22,7 @@
 ## Access Validation
 ![Developer Access Success](10-dev-access-success.png)
 ![Read-only Access Denied](11-readonly-access-denied.png)
-![guest Access Denied](11-readonly-access-denied.png)
+![guest Access Denied](12-guest-access-denied.png)
 
 ## Monitoring & Auditing
 ![Audit Logs](13-audit-logs.png)
