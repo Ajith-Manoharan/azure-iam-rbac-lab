@@ -128,13 +128,4 @@ This setup mirrors enterprise scenarios such as:
 - Built entirely using **Azure Free Tier**
 - No paid services user
 
----
 
-## 📎 Repository Structure
-
-azure-iam-rbac-lab/
-├── README.md
-├── architecture/
-│ └── README.md
-└── screenshots/
-└── README.md
