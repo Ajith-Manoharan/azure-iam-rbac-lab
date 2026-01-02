@@ -1,2 +1,5 @@
-# azure-iam-rbac-lab
-Azure IAM &amp; RBAC project using Entra ID, MFA, group-based RBAC, and audit logs (Free Tier)
+# Azure IAM & RBAC Lab (Microsoft Entra ID)
+
+
+This project demonstrates Identity and Access Management (IAM) in Microsoft Azure using Microsoft Entra ID (Azure AD), 
+group-based RBAC, MFA enforcement, guest user access, and auditing through sign-in and audit logs.
