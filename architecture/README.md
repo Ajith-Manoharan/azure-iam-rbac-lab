@@ -8,3 +8,5 @@ The diagram illustrates:
 - Authorization using Azure RBAC
 - Role assignment at Resource Group scope
 - Access enforcement by Azure Resource Manager (ARM)
+
+![Azure IAM RBAC Architecture](architecture/azure-iam-rbac-architecture.drawio)
