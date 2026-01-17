@@ -46,20 +46,7 @@ The architecture follows Microsoft-recommended best practices:
 - `grp-az-readonly` → Reader
 - `grp-az-vendor-guest` → Reader (restricted)
 
-Users receive permissions **only through group membership**.
-
----
-
-## RBAC Implementation
-
-| Role | Assigned To | Scope |
-|-----|------------|-------|
-| Owner | Admin User | Subscription |
-| Contributor | Developers Group | Resource Group |
-| Reader | Read-only Group | Resource Group |
-| Reader | Guest Group | Resource Group |
-
-RBAC is applied at the **Resource Group level** to control access efficiently.
+Users receive permissions **only through group 
 
 ---
 
