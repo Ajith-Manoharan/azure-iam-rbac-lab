@@ -6,7 +6,7 @@ The lab focuses on **secure access design**, **least privilege principles**, **g
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Implement centralized identity management using Microsoft Entra ID
 - Enforce least-privilege access using Azure RBAC
@@ -17,7 +17,7 @@ The lab focuses on **secure access design**, **least privilege principles**, **g
 
 ---
 
-## 🏗 Architecture Overview
+## Architecture Overview
 
 The architecture follows Microsoft-recommended best practices:
 
@@ -28,12 +28,12 @@ The architecture follows Microsoft-recommended best practices:
 - Access is validated by logging in as different users
 - All actions are monitored using Azure logs
 
-📁 Detailed architecture explanation is available here:  
-➡️ [Architecture Documentation](architecture/README.md)
+ Detailed architecture explanation is available here:  
+ [Architecture Documentation](architecture/README.md)
 
 ---
 
-## 🔐 Identity Design
+## Identity Design
 
 ### Users
 - **Admin User** – Full control (Owner)
@@ -50,7 +50,7 @@ Users receive permissions **only through group membership**.
 
 ---
 
-## 🛡 RBAC Implementation
+## RBAC Implementation
 
 | Role | Assigned To | Scope |
 |-----|------------|-------|
@@ -63,7 +63,7 @@ RBAC is applied at the **Resource Group level** to control access efficiently.
 
 ---
 
-## 🔑 Security Configuration
+## Security Configuration
 
 - **Security Defaults enabled**
 - **MFA enforced** for all users
@@ -72,7 +72,7 @@ RBAC is applied at the **Resource Group level** to control access efficiently.
 
 ---
 
-## ✅ Access Validation
+## Access Validation
 
 Access was tested by logging in as:
 - Developer → Access granted to resources
@@ -82,12 +82,12 @@ Access was tested by logging in as:
 
 Screenshots of each scenario are documented.
 
-📸 View all validation screenshots here:  
-➡️ [Screenshots](screenshots/README.md)
+View all validation screenshots here:  
+[Screenshots](screenshots/README.md)
 
 ---
 
-## 📊 Monitoring & Auditing
+## Monitoring & Auditing
 
 The following logs were reviewed:
 - **Audit Logs** – Group membership changes
@@ -100,7 +100,7 @@ These logs confirm:
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Microsoft Entra ID (Azure AD)
 - Azure RBAC & least privilege design
@@ -112,7 +112,7 @@ These logs confirm:
 
 ---
 
-## 💼 Real-World Use Case
+## Real-World Use Case
 
 This setup mirrors enterprise scenarios such as:
 - Onboarding developers with controlled access
@@ -123,7 +123,7 @@ This setup mirrors enterprise scenarios such as:
 
 ---
 
-## 🆓 Cost & Subscription
+## Cost & Subscription
 
 - Built entirely using **Azure Free Tier**
 - No paid services user
